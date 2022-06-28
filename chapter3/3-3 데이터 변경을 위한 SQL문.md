@@ -19,4 +19,4 @@ cf) DESC 테이블_이름: 테이블 구조 확인
 ## DELETE(행 데이터 삭제)
 * DELETE FROM 테이블_이름 WHERE 조건; : WHERE 없으면 전체 삭제
 
-cf) DROP(테이블 자체를 삭제), TRUNCATE(DELETE와 동일학게 빈 테이블 남김)은 속도가 DELETE보다 빠름 but, 조건문을 쓸 수가 없ㅇ어 조건 없이 전체 행 삭제시 사용
+cf) DROP(테이블 자체를 삭제), TRUNCATE(DELETE와 동일학게 빈 테이블 남김)은 속도가 DELETE보다 빠름 but, WHERE(조건문)을 쓸 수가 없어 조건 없이 전체 행 삭제시 사용
