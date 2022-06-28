@@ -9,7 +9,7 @@
 * INSERT시 자동 증가하는 열은 NULL값으로 채워 넣으면 된다
 * SELECT LAST_INSERT_ID(): 어느 숫자까지 증가되었는지 확인
 
-cf) SELECT COUNT(별) FROM 테이블 이름: 테이블 개수 조회
+cf) SELECT COUNT(별) FROM 테이블 이름: 테이블 개수 조회<br>
 cf) DESC 테이블_이름: 테이블 구조 확인
 
 ## UPDATE(행 데이터 수정)
