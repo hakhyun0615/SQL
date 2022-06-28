@@ -31,8 +31,8 @@ cf) 데이터가 숫자 형식이라도 연산이나 크기에 의미가 없다�
 * SELECT @변수이름;
 
 ## PREPARE, EXECUTE
-ex) SET @count = 3
-PREPARE mySQL FROM 'SELECT mem_name, height, FROM memver ORDER BY height LIMIT ?';
+ex) SET @count = 3;<br>
+PREPARE mySQL FROM 'SELECT mem_name, height, FROM memver ORDER BY height LIMIT ?';<br>
 EXECUTE mySQL USING @count
 
 # 데이터 형 변환
