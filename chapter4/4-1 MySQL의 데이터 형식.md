@@ -13,7 +13,7 @@
 * VARCHAR(공간 효율)(최대 16383자)
 * TEXT(대용량 텍스트)(최대 65535자)
 * LONGTEXT(최대 42억자)
-* BLOB/LONGBLOB(사진이나 동영상 저장)
+* BLOB/LONGBLOB(사진이나 동영상 저장)<br>
 cf) 데이터가 숫자 형식이라도 연산이나 크기에 의미가 없다면 문자형으로 지정하는게 좋다.
 
 ## 실수형
@@ -39,7 +39,7 @@ EXECUTE mySQL USING @count
 
 ## 함수를 이용한 명시적인 변환
 * CAST(값 AS 데이터_형식 [(길이)])
-* CONVERT(값, 데이터_형식 [(길이)])
+* CONVERT(값, 데이터_형식 [(길이)])<br>
 cf) 여기서 데이터 형식은 CHAR, SIGNED(부호 있는 정수), UNSIGNED(부호 없는 정수), DATE, TIME, DATETIME...
 
 ## 자연스러운 암시적인 변환
