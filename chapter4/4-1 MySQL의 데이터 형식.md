@@ -43,4 +43,6 @@ EXECUTE mySQL USING @count
 cf) 여기서 데이터 형식은 CHAR, SIGNED(부호 있는 정수), UNSIGNED(부호 없는 정수), DATE, TIME, DATETIME...
 
 ## 자연스러운 암시적인 변환
-
+ex1) SELECT '100' + '200'; -> 300
+ex2) SELECT 100 + '200'; -> 300
+ex3) SELECT CONCAT(100, '200'); -> 100200
