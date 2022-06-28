@@ -1,0 +1,16 @@
+# 스토어드 프로시저
+* MySQL에서 프로그래밍 기능이 필요할 때 사용하는 데이터베이스 개체
+* SQL 프로그래밍은 스토어드 프로시저 안에 만들어야 한다
+DELIMITER $$<br>
+CREATE PROCEDURE 이름()<br>
+BEGIN<br>
+여기에 SQL 프로그래밍<br>
+END $$<br>
+DELIMITER;<br>
+CALL 이름();
+
+# IF문
+* IF <조건문> THEN SQL문장들 END IF;
+
+# CASE문
+* CASE WHEN 조건1 THEN SQL문장들1 조건2 THEN SQL문장들2 조건3 THEN SQL문장들3 ELSE SQL문장들4 END CASE; 
