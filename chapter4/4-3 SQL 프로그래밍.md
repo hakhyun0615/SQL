@@ -20,6 +20,8 @@ WHEN 조건3 THEN 값3<br>
 ELSE 값4<br> 
 END<br>
 FROM 테이블이름;<br> 
+<img width="1304" alt="image" src="https://user-images.githubusercontent.com/88610333/177915839-6cace31e-3afb-4f22-857b-e8c58695e0f3.png">
+
 
 # WHILE문
 * WHILE <조건식> DO SQL문장들 END WHILE;
