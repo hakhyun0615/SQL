@@ -13,7 +13,13 @@ CALL 이름();
 * IF <조건문> THEN SQL문장들 END IF;
 
 # CASE문
-* CASE 열 WHEN 조건1 THEN SQL문장들1 WHEN 조건2 THEN SQL문장들2 WHEN 조건3 THEN SQL문장들3 ELSE SQL문장들4 END CASE; 
+SELECT CASE<br>
+WHEN 조건1 THEN 값1<br>
+WHEN 조건2 THEN 값2<br> 
+WHEN 조건3 THEN 값3<br>
+ELSE 값4<br> 
+END<br>
+FROM 테이블이름;<br> 
 
 # WHILE문
 * WHILE <조건식> DO SQL문장들 END WHILE;
