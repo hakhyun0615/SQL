@@ -10,7 +10,10 @@ DELIMITER;<br>
 CALL 이름();
 
 # IF문
-* IF <조건문> THEN SQL문장들 END IF;
+IF <조건문>
+BEGIN
+SQL문장들 
+END;
 
 # CASE문
 SELECT CASE<br>
