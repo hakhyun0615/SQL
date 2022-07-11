@@ -24,6 +24,7 @@ ELSE 값4<br>
 END<br>
 FROM 테이블이름;<br> 
 <img width="1304" alt="image" src="https://user-images.githubusercontent.com/88610333/177915839-6cace31e-3afb-4f22-857b-e8c58695e0f3.png">
+<img width="1409" alt="스크린샷 2022-07-11 오전 9 47 17" src="https://user-images.githubusercontent.com/88610333/178169446-898a9e12-d3d3-40ae-acce-775118a1ddf5.png">
 
 
 # WHILE문
