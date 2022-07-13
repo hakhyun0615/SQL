@@ -45,17 +45,20 @@
 
 # 상위 몇 퍼센트, 하위 몇 퍼센트 구하기
 * PERCENT_RANK() OVER (ORDER BY 열)
-* <img width="1593" alt="image" src="https://user-images.githubusercontent.com/88610333/177905207-2181ea5c-592f-4b58-8dd6-667dc5c83773.png">
+<img width="1593" alt="image" src="https://user-images.githubusercontent.com/88610333/177905207-2181ea5c-592f-4b58-8dd6-667dc5c83773.png">
 
 # Any/All
 * Any: 하위 쿼리에서 하나의 조건 만 만족하면 True
 * All: 하위 쿼리에서 모든 값이 조건 만족하면 True
 
 # 서브쿼리(쿼리문 안에 또 다른 쿼리문 포함)
-* <img width="686" alt="image" src="https://user-images.githubusercontent.com/88610333/178189255-2bff195b-e827-4c76-b5c1-b1a6084dea48.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/88610333/178189255-2bff195b-e827-4c76-b5c1-b1a6084dea48.png">
 
 # WHERE -> GROUP BY / GROUP BY -> HAVING(문제 읽고 순서 파악)
-* <img width="686" alt="image" src="https://user-images.githubusercontent.com/88610333/178197533-7332062a-0299-40eb-865f-352639961078.png">
-* <img width="684" alt="image" src="https://user-images.githubusercontent.com/88610333/178197559-53c9fef9-f4ed-4834-96f6-2a56a7e78b88.png">
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/88610333/178197533-7332062a-0299-40eb-865f-352639961078.png">
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/88610333/178197559-53c9fef9-f4ed-4834-96f6-2a56a7e78b88.png">
+
+# COALESCE
+<img width="562" alt="image" src="https://user-images.githubusercontent.com/88610333/178639527-c0f6bf18-3f5c-4dd4-afa2-d266a465e84c.png">
 
 
