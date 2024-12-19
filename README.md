@@ -1,5 +1,5 @@
 # SQL
-This repository contains notes and summaries from the book '혼자 공부하는 SQL', along with practice problem notes from HackerRank and SQLZOO.
+This repository contains notes and summaries from the book "혼자 공부하는 SQL", along with practice problem notes from HackerRank and SQLZOO.
 
 ## Contents
 ### Chapter 2: Database Basics
